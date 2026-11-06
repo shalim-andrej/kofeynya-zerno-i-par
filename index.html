@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Зерно и пар — кофейня спешелти-кофе в центре города</title>
+  <meta name="description" content="Кофейня «Зерно и пар»: спешелти-кофе свежей обжарки, десерты ручной работы, альтернативное заваривание. Бронь столиков онлайн.">
+  <link rel="icon" href="assets/img/barista.png" type="image/png">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="logo">Зерно<span>&amp;</span>пар</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">О нас</a>
+        <a href="#menu">Меню</a>
+        <a href="#gallery">Атмосфера</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#contacts" class="btn btn--solid btn--nav">Забронировать</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Герой с видео -->
+  <section class="hero" id="top">
+    <video class="hero__video" autoplay muted loop playsinline poster="assets/img/hero.png">
+      <source src="assets/video/coffee-hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="eyebrow">Кофейня в центре города · с 8:00 до 22:00</p>
+      <h1 class="hero__title">Зерно <em>&amp;</em> пар</h1>
+      <p class="hero__sub">Спешелти-кофе, который хочется не спешить. Свежая обжарка,<br class="br-desk"> десерты ручной работы и тишина посреди города.</p>
+      <div class="hero__cta">
+        <a href="#menu" class="btn btn--solid">Смотреть меню</a>
+        <a href="#contacts" class="btn btn--ghost">Забронировать столик</a>
+      </div>
+      <div class="hero__badges">
+        <div class="badge"><b>4,9</b><span>рейтинг гостей</span></div>
+        <div class="badge"><b>12</b><span>сортов зерна</span></div>
+        <div class="badge"><b>7 лет</b><span>варим с любовью</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Листайте вниз"><span></span></a>
+  </section>
+
+  <!-- Бегущая строка -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>свежая обжарка</span><i>✦</i><span>десерты ручной работы</span><i>✦</i><span>альтернативное заваривание</span><i>✦</i><span>своя пекарня</span><i>✦</i><span>зерновой кластер недели — Эфиопия</span><i>✦</i>
+      <span>свежая обжарка</span><i>✦</i><span>десерты ручной работы</span><i>✦</i><span>альтернативное заваривание</span><i>✦</i><span>своя пекарня</span><i>✦</i><span>зерновой кластер недели — Эфиопия</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- О нас -->
+  <section class="about section" id="about">
+    <div class="wrap two-col">
+      <div class="two-col__text reveal">
+        <p class="eyebrow eyebrow--light">О нас</p>
+        <h2>Место, где кофе<br>становится ритуалом</h2>
+        <p>«Зерно и пар» — маленькая кофейня с большими привычками: мы обжариваем зерно сами, каждое утро печём круассаны и варим кофе так, будто от этого зависит весь ваш день.</p>
+        <p>В меню — классика и авторские напитки, альтернативное заваривание на воронке и аэропрессе. Приходите на час тишины, на встречу с друзьями или просто за капучино «с собой».</p>
+        <ul class="facts">
+          <li><b>12</b><span>сортов спешелти-зерна</span></li>
+          <li><b>98 °C</b><span>идеальная подача</span></li>
+          <li><b>40</b><span>мест в зале и на террасе</span></li>
+        </ul>
+      </div>
+      <div class="two-col__media reveal">
+        <div class="photo-frame"><img src="assets/img/barista.png" alt="Бариста вливает молоко в эспрессо"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Меню -->
+  <section class="menu section section--alt" id="menu">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow eyebrow--light">Меню</p>
+        <h2>Напитки и десерты</h2>
+        <p class="head__sub">Зерно этой недели — Эфиопия Иргачеффе: жасмин, бергамот и персик в каждом глотке.</p>
+      </div>
+      <div class="menu__grid">
+        <div class="menu__photo reveal">
+          <img src="assets/img/menu-capuccino.png" alt="Капучино с круассаном на деревянном столе">
+          <div class="menu__photo-tag">Кофе-пар «на двоих» — 690 ₽</div>
+        </div>
+        <div class="menu__list reveal">
+          <div class="mi"><span class="mi__name">Эспрессо</span><span class="mi__dots"></span><span class="mi__price">190 ₽</span></div>
+          <div class="mi"><span class="mi__name">Капучино на зерне недели</span><span class="mi__dots"></span><span class="mi__price">320 ₽</span></div>
+          <div class="mi"><span class="mi__name">Раф «Карамель и соль»</span><span class="mi__dots"></span><span class="mi__price">380 ₽</span></div>
+          <div class="mi"><span class="mi__name">Фильтр на воронке</span><span class="mi__dots"></span><span class="mi__price">350 ₽</span></div>
+          <div class="mi"><span class="mi__name">Матча-латте</span><span class="mi__dots"></span><span class="mi__price">390 ₽</span></div>
+          <div class="mi"><span class="mi__name">Круассан классический</span><span class="mi__dots"></span><span class="mi__price">210 ₽</span></div>
+          <div class="mi"><span class="mi__name">Чизкейк «Баскский»</span><span class="mi__dots"></span><span class="mi__price">340 ₽</span></div>
+          <div class="mi"><span class="mi__name">Синнабон с орехом</span><span class="mi__dots"></span><span class="mi__price">290 ₽</span></div>
+          <p class="menu__note">Молоко на выбор: классическое, овсяное, миндальное — без наценки.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Атмосфера -->
+  <section class="gallery section" id="gallery">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow eyebrow--light">Атмосфера</p>
+        <h2>Как у нас звучит утро</h2>
+      </div>
+      <div class="gallery__grid">
+        <figure class="g-item g-item--big reveal"><img src="assets/img/hero.png" alt="Зал кофейни в утреннем свете"></figure>
+        <figure class="g-item reveal"><img src="assets/img/barista.png" alt="Работа бариста"></figure>
+        <figure class="g-item reveal"><img src="assets/img/menu-capuccino.png" alt="Кофе и десерт"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="reviews section section--alt" id="reviews">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow eyebrow--light">Отзывы</p>
+        <h2>Что говорят гости</h2>
+      </div>
+      <div class="reviews__grid">
+        <article class="rev reveal">
+          <div class="stars">★★★★★</div>
+          <p>«Лучший фильтр-кофе в городе. Прихожу сюда работать по утрам — тишина, свет и бариста, который помнит мой заказ».</p>
+          <footer>Анна К. — постоянный гость</footer>
+        </article>
+        <article class="rev reveal">
+          <div class="stars">★★★★★</div>
+          <p>«Раф "Карамель и соль" — это отдельный вид искусства. А круассаны разбирают до полудня, проверено».</p>
+          <footer>Дмитрий Л. — гео-отметка месяца</footer>
+        </article>
+        <article class="rev reveal">
+          <div class="stars">★★★★★</div>
+          <p>«Забронировали зал на день рождения: уютно, красиво и десерты восхитительные. Спасибо команде!»</p>
+          <footer>Мария и друзья</footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="contacts section" id="contacts">
+    <div class="wrap two-col">
+      <div class="two-col__text reveal">
+        <p class="eyebrow eyebrow--light">Контакты</p>
+        <h2>Забронируйте столик</h2>
+        <p class="contacts__lead">Оставьте заявку — перезвоним в течение 15 минут и удержим лучший столик.</p>
+        <ul class="contacts__list">
+          <li><b>Адрес</b><span>ул. Кофейная, 7 · вход с бульвара</span></li>
+          <li><b>Часы</b><span>пн–пт 8:00–22:00 · сб–вс 9:00–23:00</span></li>
+          <li><b>Телефон</b><span>+7 (900) 000-00-00</span></li>
+        </ul>
+      </div>
+      <form class="form reveal" id="bookForm" novalidate>
+        <div class="form__row">
+          <label>Ваше имя<input type="text" name="name" placeholder="Как к вам обращаться" required></label>
+          <label>Телефон<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+        </div>
+        <div class="form__row">
+          <label>Дата<input type="date" name="date" required></label>
+          <label>Гостей<select name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>6+</option></select></label>
+        </div>
+        <label>Пожелания<textarea name="note" rows="2" placeholder="Столик у окна, торт с собой и т. д."></textarea></label>
+        <button type="submit" class="btn btn--solid btn--wide">Забронировать</button>
+        <p class="form__ok" id="formOk">Спасибо! Заявка отправлена — перезвоним в течение 15 минут ☕</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a href="#top" class="logo">Зерно<span>&amp;</span>пар</a>
+      <p class="footer__note">Кофейня спешелти-кофе · ул. Кофейная, 7 · ежедневно с 8:00</p>
+      <p class="footer__copy">© 2026 «Зерно и пар». Демо-сайт для портфолио.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
