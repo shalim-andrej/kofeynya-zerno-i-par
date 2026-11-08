@@ -1,5 +1,12 @@
 # Зерно и пар — сайт кофейни
 
+## Демо
+
+**[Открыть сайт →](https://shalim-andrej.github.io/kofeynya-zerno-i-par/)**
+
+![Главный экран — десктоп](screenshots/desktop.png)
+![Мобильная версия](screenshots/mobile.png)
+
 Одностраничный сайт кофейни спешелти-кофе с видео-заставкой в первом экране, меню и онлайн-бронированием столика.
 
 **Демо:** [shalim-andrej.github.io/kofeynya-zerno-i-par](https://shalim-andrej.github.io/kofeynya-zerno-i-par/)
